@@ -1,0 +1,30 @@
+{
+    "template": "react-recoil-typescript",
+    "version": "0.0.1",
+    "author": "Alexandr <re-knownout> knownout@hotmail.com",
+
+    "define": {
+        "ThemeColor": "#222222"
+    },
+
+    "files": {
+        "public/manifest.json": {
+            "@application-name": "#ApplicationName",
+            "@application-theme-color": "#ThemeColor"
+        },
+        "src/index.html": {
+            "@application-title": "#ApplicationName",
+            "@application-description": "#ApplicationDescription",
+            "@application-keywords": "#ApplicationKeywords",
+            "@application-author": "#Author",
+            "@application-theme-color": "#ThemeColor"
+        },
+        "package.json": {
+            "@version": "1.0.0",
+            "@description": "#ApplicationDescription",
+            "@name": "#ApplicationName",
+            "@author": "#Author",
+            "@license": "AGPL-3.0"
+        }
+    }
+}

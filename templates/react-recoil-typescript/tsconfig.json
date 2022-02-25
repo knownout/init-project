@@ -1,0 +1,39 @@
+{
+    "extends": "./tsconfig.mappings.json",
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ES2020",
+            "ES2021"
+        ],
+        "module": "CommonJS",
+        "target": "es5",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "incremental": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "alwaysStrict": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitThis": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "removeComments": true,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "declaration": false,
+        "jsx": "react",
+        "baseUrl": "."
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./node_modules/**/*",
+        "./*.config.*s"
+    ]
+}
